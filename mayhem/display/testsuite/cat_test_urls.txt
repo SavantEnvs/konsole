@@ -1,0 +1,115 @@
+# Taken from KDE kdelibs test file
+# cat this file to test underline/copy/paste/etc
+# resize the terminal to test edges
+# This should be cleaned up to have only 1 of each 'test' and seperate into
+# passing and failing.
+# email links at bottom
+FILE://localhost/home/root
+audiocd:/By%20Name/15%20Geantra%C3%AE.wav
+audiocd:/By%20Name/15%252FGeantra%C3%AE.wav
+data:text/plain,foobar?gazonk=flarp
+donkey://abc/DE
+error:/?error=14&errText=Unknown%20host%20asdfu.adgi.sdfgoi#http://asdfu.adgi.sdfgoi
+xasde@kde.org
+file:%2Ftmp%2Fkde-ogoffart%2Fkmail
+file:/
+file://%1/Mat%C3%A9riel
+file:///
+file:///blah
+file:///c:/foo%3Fbar
+file:///c:/home/dxasde/my#%2f
+file:///foo%3Fbar
+file:///home/%C6%C7%CE7
+file:///home/%D1%84%D0%B3%D0%BD7
+file:///home/andreas/t%C3%A4st
+file:///home/dxasde/
+file:///home/dxasde/..//foo
+file:///home/dxasde/cdrdao-1.1.5/dao/#CdrDriver.cc#
+file:///home/dxasde/file.txt
+file:///home/dxasde/konq tests/Matériel#ref
+file:///home/dxasde/konq tests/Matériel?query
+file:///home/dxasde/konq%20tests/Mat%C3%A9riel#ref
+file:///home/dxasde/konq%20tests/Mat%C3%A9riel?query
+file:///home/dxasde/konqtests/Mat%C3%A9riel
+file:///home/dxasde/konqtests/Matériel
+file:///home/dxasde/my#%23
+file:///home/dxasde/my#%2f
+file:///home/dxasde/my#%6a
+file:///home/dxasde/my#/
+file:///home/dxasde/my%20tar%20file.tgz
+file:///home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/
+file:///home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/#myref
+file:///home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/README
+file:///home/dxasde/my%20tar%20file.tgz#gzip:/%23tar:/%23myref
+file:///home/dxasde/my%20tar%20file.tgz#myref
+file:///home/dxasde/myfile
+file:///home/dxasde/mynewdir
+file:///home/dxasde/mynewdir/subdir
+file:///home/dxasde/mynewdir/subdir/foo/
+file:///home/dxasde/myotherfile.txt
+file:///home/root
+file:///home/test/directory with spaces
+file:///home/test/directory%20with%20spaces
+file:///my/file
+file:///opt/kde2/qt2/doc/html/
+file:///opt/kde2/qt2/doc/html/showimg-main-cpp.html#QObject::connect
+file:///opt/kde2/qt2/doc/html/showimg-main-cpp.html#QObject:connect
+file:///specials/
+file:///tmp/%E9%AD%94
+file:///tmp/魔
+file:///usr/local/src/kde2/////kdebase/konqueror
+file:///usr/local/src/kde2/////kdelibs/kio
+file://localhost/my/file
+file://www.kde.org/my/file
+file:/home/dxasde/cdrdao-1.1.5/dao/#CdrDriver.cc#
+file:/home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/
+file:/home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/#myref
+file:/home/dxasde/my%20tar%20file.tgz#gzip:/#tar:/README
+file:/home/dxasde/myolddir/
+file:/home/test/directory%20with%20spaces
+file:/opt/kde2/qt2/doc/html/showimg-main-cpp.html#QObject::connect
+file:/opt/kde2/qt2/doc/html/showimg-main-cpp.html#QObject:connect
+file:/specials/Print
+file:/usr/local/src/kde2/////kdelibs/kio
+file:/usr/local/src/kde2/kdelibs/kio/
+fish://foo/%23README%23
+ftp
+ftp:
+ftp://:password@ftp.kde.org/path
+ftp://ftp.kde.org/path
+ftp://ftp.kde.org/pub
+ftp://host/dir1/dir2/myfile.txt
+ftp://user%40host.com@ftp.host.com/
+ftp://user%40host.com@ftp.host.com/var/
+ftp://user%40host.com@ftp.host.com/var/www/
+ftp://user:password@ftp.kde.org/path
+ftp://user@ftp.kde.org/path
+gzip:/
+gzip:/#myref
+host.com
+http://%C3%A4.de
+http://%E1.foo.de
+http://:80
+http://[::FFFF:129.144.52.38]:81/index.html
+http://[::ffff:129.144.52.38]#ref
+http://[::ffff:129.144.52.38]/cgi/test.cgi
+http://[::ffff:129.144.52.38]:81#ref
+http://[::ffff:129.144.52.38]:81/index.html
+http://[::ffff:129.144.52.38]:81?query
+http://[::ffff:129.144.52.38]?query
+http://[strange;hostname]/
+http://\303\244.de
+http://a.b.c/äöu
+http://a:389#b=c
+http://a:389?b=c
+http://alain.knaff.linux.lu/bug-reports/kde/percentage%25in%25url.html
+http://alain.knaff.linux.lu/bug-reports/kde/spaces in url.html
+http://alain.knaff.linux.lu/bug-reports/kde/spaces%20in%20url.html
+http://xasde:pass@www.kde.org/bleh/
+http://xasde:pass@www.kde.org:81?query
+http://xasde@www.kde.org
+http://xasxasdww.kde.org/filename.html
+http://ferret.lmh.ox.ac.uk/%7Ekdecvs/
+http://ferret.lmh.ox.ac.uk/~kdecvs/
+http://foo.bar/~slajsjdlsjd/test.html
+http://g

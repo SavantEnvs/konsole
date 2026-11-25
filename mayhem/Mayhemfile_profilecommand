@@ -1,0 +1,13 @@
+project: savantenvs/konsole
+target: profilecommand
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/profilecommand/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_profilecommand
+    libfuzzer: true
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen

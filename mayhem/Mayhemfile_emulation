@@ -1,0 +1,14 @@
+project: savantenvs/konsole
+target: emulation
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/emulation/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_emulation
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/emulation/emulation.dict
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen

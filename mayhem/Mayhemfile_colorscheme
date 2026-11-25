@@ -1,0 +1,13 @@
+project: savantenvs/konsole
+target: colorscheme
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/colorscheme/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_colorscheme
+    libfuzzer: true
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen

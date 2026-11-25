@@ -1,0 +1,14 @@
+project: savantenvs/konsole
+target: export
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/export/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_export
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/export/export.dict
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen

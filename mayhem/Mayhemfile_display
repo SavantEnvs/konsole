@@ -1,0 +1,14 @@
+project: savantenvs/konsole
+target: display
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/display/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_display
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/display/display.dict
+    timeout: 10
+    env:
+      QT_QPA_PLATFORM: offscreen
